@@ -15,30 +15,30 @@ The system supports:
 
 ## Project Media
 
-Add your real circuit photo and workflow GIFs in `docs/assets/` using these filenames. The README is already wired to show them.
+Paste your Google Drive links in this section after uploading each video/photo to Drive. In Google Drive, set sharing to `Anyone with the link` and permission to `Viewer`.
 
-| Media | File path |
+| Media | Google Drive link |
 | --- | --- |
-| Full circuit connection photo | `docs/assets/circuit-connection-photo.jpg` |
-| User adding GIF | `docs/assets/user-adding.gif` |
-| Enrolling GIF | `docs/assets/enrolling.gif` |
-| Attendance marking GIF | `docs/assets/attendance-marking.gif` |
+| Full circuit connection video/photo | [Open video](https://drive.google.com/file/d/1dgVEMReBqVqYYoX3DyCoEDrGOya38gLY/view?usp=sharing) |
+| User adding video | [Open video](https://drive.google.com/file/d/1ZFlK5ClMJjPrCSiW7zxxtqAnvd7nFXeR/view?usp=sharing) |
+| Enrolling video | [Open video](https://drive.google.com/file/d/1wywMF8EaxRGrlhLkk-YzL9NPKV7P6NXX/view?usp=sharing) |
+| Attendance marking video | [Open video](https://drive.google.com/file/d/1YVTv3cFpiBh58skWB7okZiIOSw5h-iDh/view?usp=sharing) |
 
-### Circuit Connection Photo
+### Circuit Connection
 
-![Full RFID attendance circuit connection](docs/assets/circuit-connection-photo.jpg)
+[Watch circuit connection demo](https://drive.google.com/file/d/1dgVEMReBqVqYYoX3DyCoEDrGOya38gLY/view?usp=sharing)
 
 ### User Adding Flow
 
-![User adding GIF](docs/assets/user-adding.gif)
+[Watch user adding demo](https://drive.google.com/file/d/1ZFlK5ClMJjPrCSiW7zxxtqAnvd7nFXeR/view?usp=sharing)
 
 ### RFID Enrollment Flow
 
-![Enrolling GIF](docs/assets/enrolling.gif)
+[Watch RFID enrollment demo](https://drive.google.com/file/d/1wywMF8EaxRGrlhLkk-YzL9NPKV7P6NXX/view?usp=sharing)
 
 ### Attendance Marking Flow
 
-![Attendance marking GIF](docs/assets/attendance-marking.gif)
+[Watch attendance marking demo](https://drive.google.com/file/d/1YVTv3cFpiBh58skWB7okZiIOSw5h-iDh/view?usp=sharing)
 
 ## Hardware Required
 
@@ -154,7 +154,7 @@ RFID_attendance_marking/
 |-- esp32-20260406.bin          # ESP32 firmware image kept in repo
 |-- create-admin.mjs            # Helper script for creating an admin user
 |-- frontend/                   # React + Vite + Firebase dashboard
-|-- docs/assets/                # Circuit photo and GIFs used by this README
+|-- docs/assets/                # Documentation notes
 |-- README.md                   # Main project documentation
 |-- LICENSE
 ```
@@ -442,4 +442,4 @@ Deploy only after setting your Firebase project configuration in the Firebase CL
 - Use 3.3V for the MFRC522 RFID reader.
 - Use an external supply for door locks.
 - Do not commit real WiFi passwords, Firebase secrets, or `.env.local`.
-- Add your project photos/GIFs to `docs/assets/` so they render in this README.
+- Use Google Drive links in the Project Media section for large videos.

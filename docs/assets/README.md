@@ -1,12 +1,10 @@
-# README Media Assets
+# Documentation Assets
 
-Place the real project media files here with these exact names:
+Large photos and videos are no longer stored in this repository.
 
-| File | Used for |
-| --- | --- |
-| `circuit-connection-photo.jpg` | Full circuit connection photo |
-| `user-adding.gif` | Dashboard user adding workflow |
-| `enrolling.gif` | RFID card enrollment workflow |
-| `attendance-marking.gif` | Attendance marking workflow |
+Upload the circuit connection video/photo and workflow videos to Google Drive, then paste the shared links into the root `README.md`.
 
-After these files are added, they will render automatically in the root `README.md`.
+Recommended Drive sharing setting:
+
+- `Anyone with the link`
+- `Viewer`

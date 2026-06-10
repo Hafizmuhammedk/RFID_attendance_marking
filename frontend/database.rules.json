@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "system": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "users": {
+      ".read": "auth != null",
+      ".write": "auth != null"
+    },
+    "attendance": {
+      ".read": "auth != null",
+      ".write": true
+    }
+  }
+}
